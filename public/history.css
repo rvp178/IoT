@@ -1,0 +1,145 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    /* background-color: chocolate; */
+    padding: 10px 20px 10px 10px;
+    margin: 0px;
+}
+.title {
+    margin-left:20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #68caee;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    /* display: flex; */
+}
+.form {    
+    float: right;
+    margin-right: 10px;
+    margin-left: 13px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+    color: #8a7c7c;
+    border: 1px solid rgba(197, 119, 178, 0.74);
+    background: #9ca2b8a4;
+    border-radius: 5px;
+}
+
+.form:hover {
+    cursor: pointer;
+    background-color: rgba(126, 126, 202, 0.753);
+    color: white;
+    transition: 0.7s;
+}
+#RTC{
+    padding: 2px;
+    background-color: #fcfcfc;
+}
+
+body{
+    background-color: #ebeef8;
+}
+
+#left {
+   width: 100%;
+   background-color: rgba(109, 77, 66, 0.904);
+   float: center;
+   text-align: center;
+}
+
+.boxtitle{
+    font-weight: bold;
+    font-size: medium;
+    padding: 20px 20px 20px 10px;
+    font-size: 125%;
+    border-top: aliceblue solid 2px;
+    border-bottom: aliceblue solid 2px;
+}
+
+#h-header, #h-body{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* background-color: darksalmon; */
+}
+
+.form {    
+    float: right;
+    margin-left: 13px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+    color: #8a7c7c;
+    border: 1px solid rgba(197, 119, 178, 0.74);
+    border-radius: 5px;
+}
+
+.form:hover {
+    cursor: pointer;
+    background-color: rgb(105, 105, 218);
+    color: white;
+    transition: 0.7s;
+}
+
+
+.header-content{
+    padding: 10px 0px;
+    background-color: transparent;
+    font-size: 120%;
+}
+
+#h-id{
+    float: left;
+    width: 10%;
+    padding-left: 20px;
+}
+
+#h-time{
+    float: left;
+    width: 22.5%;
+}
+
+#h-temp{
+    float: left;
+    width: 22.5%;
+}
+
+#h-humi{
+    float: left;
+    width: 22.5%;
+}
+
+#h-light{
+    float: left;
+    width: 22.5%;
+}
+
+/* --------table body------- */
+#time-content{
+    width:22.5%;
+    float: left;
+}
+
+#id-content{
+    float: left;
+    width:10%;
+}
+
+#temp-content, #humi-content{
+    width:22.5%;
+    float: left;
+}
+#light-content{
+    float: left;
+    width:22.5%;
+}
+/* -------------------------- */
+
+.h-para{
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(177, 140, 73);
+}
