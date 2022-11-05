@@ -1,4 +1,4 @@
-var socket = io("192.168.1.30:6060")
+var socket = io("http://localhost:6060")
 
 socket.on("server-update-data", function (data) {
 
